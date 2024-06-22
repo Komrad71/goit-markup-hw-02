@@ -1,2 +1,2 @@
 # goit-markup-hw-01
-DZ_№1
+DZ_№2
