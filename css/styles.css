@@ -1,35 +1,40 @@
 body {
-  font-family: 'Roboto , sans-serif' ;
+  font-family: 'Roboto', sans-serif;
   /* font-size: ; */
   font-weight: 500 ;
   font-style: normal;
-  color: #4d5ae5;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
-
-.header-logo-web {
-  color: #4d5ae5 ;
-}
 .header-logo {
-  font-family: 'Relaway';
+  font-family: 'Relaway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5 ;
+  
+}
+.header-logo-studio {
   color: #2E2F42;
 }
 
 .header-link {
-  font-family: 'Roboto , sans-serif' ;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
+
+.header-address {
+  font-style: normal;
+}
 .header-address-link {
-  font-family: 'Roboto , sans-serif' ;
+  font-family: 'Roboto', sans-serif;
   /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
@@ -48,6 +53,7 @@ body {
   color: white;
 }
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -71,6 +77,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.team {
+  background-color: #F4F4FD;
+}
 .team-title {
   /* font-family: var(--font-family);
   font-weight: 700; */
@@ -78,11 +88,15 @@ body {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2E2F42;
+}
+.team-list {
+  background-color: #FFFFFF;
 }
 .team-subtitle {
   /* font-family: var(--font-family); */
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
@@ -101,6 +115,7 @@ body {
 .portfolio-title {
   /* font-family: var(--font-family);
   font-weight: 700; */
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
@@ -108,8 +123,8 @@ body {
   color: #2E2F42;
 }
 .portfolio-subtitle {
-  /* font-family: var(--font-family);
-  font-weight: 500; */
+  /* font-family: var(--font-family); */
+  font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
@@ -126,16 +141,17 @@ body {
 .footer {
   background-color: #2E2F42;
 }
-.footer-logo-web {
-  color: #4d5ae5 ;
-}
+
 .footer-link {
-  /* font-family: var(--second-family); */
+  font-family: 'Relaway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-studio {
   color: #F4F4FD;
 }
 .footer-text {
