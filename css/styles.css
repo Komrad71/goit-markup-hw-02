@@ -8,7 +8,7 @@ body {
 }
 
 .header-logo {
-  font-family: 'Relaway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -68,7 +68,7 @@ body {
   cursor: pointer;
 }
 .hero-btn:hover, .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .advantages-subtitle {
   /* font-family: var(--font-family); */
@@ -100,7 +100,7 @@ body {
   text-transform: capitalize;
   color: #2E2F42;
 }
-.team-list {
+.team-item {
   background-color: #FFFFFF;
 }
 .team-subtitle {
@@ -152,7 +152,7 @@ body {
 }
 
 .footer-link {
-  font-family: 'Relaway', sans-serif;
+  font-family: 'Releway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
